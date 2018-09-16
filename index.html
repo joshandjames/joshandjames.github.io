@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="main.css"/>
 </head>
 <body>
-  <div class="w3-display-container roboto" style="height: 85%;background-image:url('https://joshandjames.github.io/test.jpg');background-size:cover;backgrond-position:center center;background-attachment:fixed;">
+  <div class="w3-display-container roboto" style="background-image:url('https://joshandjames.github.io/test.jpg');background-size:cover;backgrond-position:center center;background-attachment:fixed;" id="mainImage">
     <div class="w3-display-middle w3-text-white">
       <h2>3D Printing Services</h2>
     </div>
@@ -17,5 +17,8 @@
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="page-init.js"></script>
+  <script>
+$('#mainImage').css({height: Math.round($(window).height() * 0.85)});
+  </script>
 </body>
 </html>
