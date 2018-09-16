@@ -15,7 +15,7 @@ var scrollReady = false;
 
 $(window).scroll(function () {
   var scroll = $(this).scrollTop();
-  var triggerScroll = 20;
+  var triggerScroll = Math.round($(window).height() * 0.85);
   var ele = $('#_navbar');
   if (scroll > triggerScroll) {
     if (ele.hasClass('init')) {
