@@ -28,14 +28,7 @@ $(window).scroll(function () {
     if (ele.hasClass('init')) {
       ele.removeClass('init');
     }
-    ele.removeClass('go-back');
     ele.addClass('go-back');
-  }
-  /*if (ele.hasClass('go-white')) {
     ele.removeClass('go-white');
-    ele.addClass('go-back');
-  } else {
-    ele.removeClass('go-back');
-    ele.addClass('go-white');
-  }*/
+  }
 });
