@@ -2,11 +2,11 @@
 (function () {
   var body = document.body.innerHTML;
   var navbarString = '<div class="w3-bar w3-large roboto w3-top init" id="_navbar">' +
-    '<div class="navbutton">Home</div>' +
-    '<div class="navbutton">Showcase</div>' +
-    '<div class="navbutton">Contact</div>' +
-    '<div class="navbutton">Order</div>' +
-    '<div class="navbutton">Sources</div>' +
+    '<a href="/"><div class="navbutton">Home</div></a>' +
+    '<a href="/showcase/"><div class="navbutton">Showcase</div></a>' +
+    '<a href="/contact/"><div class="navbutton">Contact</div></a>' +
+    '<a href="/order/"><div class="navbutton">Order</div></a>' +
+    '<a href="/sources/"><div class="navbutton">Sources</div></a>' +
   '</div>';
   document.body.innerHTML = navbarString + body;
 })();
