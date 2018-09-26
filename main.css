@@ -6,5 +6,5 @@
 /*Effects*/
 .shadow{text-shadow:0 0 10px #000;}
 /*Navbar animation*/
-.go-back,.go-white{animation-duration:.25s;opacity:.9}.go-back{background-color:inherit;color:#fff;animation-name:back;text-shadow: 0 0 10px #000;}.go-white{background-color:#fff;color:#000;animation-name:animateToWhite;text-shadow:none;}@keyframes back{from{background-color:#fff;color:#000;}to{background-color:inherit;color:#fff;}}@keyframes animateToWhite{from{background-color:inherit;color:#000;}to{background-color:#fff}}
+.go-back,.go-white{animation-duration:.25s;opacity:.9}.go-back{background-color:inherit;color:#fff;animation-name:back;text-shadow: 0 0 10px #000;}.go-white{background-color:#fff;color:#000;animation-name:animateToWhite;text-shadow:none;}@keyframes back{from{background-color:#fff;color:#000;}to{background-color:inherit;color:#fff;}}@keyframes animateToWhite{from{background-color:inherit;color:#000;}to{background-color:#fff;}}
 #_navbar.init{color:#fff;text-shadow: 0 0 10px #000;}
