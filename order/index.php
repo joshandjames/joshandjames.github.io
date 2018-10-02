@@ -15,6 +15,8 @@
   </div>
   <div class="w3-padding tk-roboto">
     <h2>Order</h2>
+    <div class="w3-leftbar w3-border-blue w3-pale-blue w3-padding-small tk-bebas w3-xlarge">Please include your shipping address and a url to the .stl file in the information box. We only print .STL files.</div>
+    <hr/>
     <div>
       <form name="contactform" method="post" action="send_form_email.php">
       <table width="450px">
@@ -23,7 +25,7 @@
         <label for="first_name">First Name *</label>
        </td>
        <td valign="top">
-        <input type="text" name="first_name" maxlength="50" size="30">
+        <input  type="text" name="first_name" maxlength="50" size="30">
        </td>
       </tr>
       <tr>
@@ -52,7 +54,7 @@
       </tr>
       <tr>
        <td valign="top">
-        <label for="comments">Comments *</label>
+        <label for="comments">Information *</label>
        </td>
        <td valign="top">
         <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
@@ -66,6 +68,7 @@
       </table>
       </form>
     </div>
+    <div class="w3-center"><img src="https://joshandjames.github.io/warehouse.jpeg" style="width:90%"/></div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="../page-init.js"></script>
