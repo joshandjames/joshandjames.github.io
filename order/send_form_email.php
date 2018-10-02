@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "you@yourdomain.com";
+    $email_to = "joshuasmith6556@gmail.com";
     $email_subject = "Print Order";
  
     function died($error) {
@@ -79,12 +79,10 @@ $headers = 'From: '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);  
 ?>
- 
-<!-- include your own success html here -->
- 
+  
 Thank you for contacting us! We will respond with pricing details as soon as we can.
 <br><br>
-<a href="/">Back to home</a>
+<a href="/" style="font-family: Roboto, sans-serif, arial">Back to home</a>
 <?php
  
 }
